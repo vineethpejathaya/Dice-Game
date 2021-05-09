@@ -1,1 +1,57 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎲 <u> DICE GAME </u> 🎲</h1>
+    <div class="container">
+        <div class="new-game"> <button >🔄 NEW GAME</button></div>
+        <section class="grid-container">
+            <div class="player-section">
+                <div class="player1">
+                    <h1>Player 1</h1>
+                    <br>
+                    <p class="main-score"><span class="main-player1">0</span></p>
+                    <br>
+                    <br>
+                    <br>
+                    <section class="current-score">
+                        <h3>Current</h3>
+                        <br>
+                        <p><span class="current-player1">0</span></p>
+                        <br>
+                    </section>
+                </div>
+            </div>  
+            <div class="button-section">
+              
+                <div><img class="dice" src="die_face_1.svg">  </div> 
+                <div><button class="roll-dice">🎲 Roll Dice</button></div>
+                <div><button class="hold">🎮 Hold</button></div>
+                <div><p class="win-message"></p></div>
+            </div>
+            
+            <div class="player-section"> 
+                <div class="player2">
+                    <h1>Player 2</h1>
+                    <br>
+                    <p class="main-score"><span class="main-player2">0</span></p>
+                    <br>
+                    <br>
+                    <br>
+                    <section class="current-score">
+                        <h3>Current</h3>
+                        <br>
+                        <p><span class="current-player2">0</span></p>
+                        <br>
+                    </section>
+            </div> 
+        </section>  
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

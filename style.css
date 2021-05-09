@@ -1,1 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    
+    background: linear-gradient(to bottom right, #ffff00 0%, #006699 100%);
+}
+h1{
+    margin-top: 2%;
+    text-align: center ;
+}
+img{  
+    width: 25%;
+    height: 25%; 
+    margin-top: 10px; 
+  
+}
+.container{
+   
+   margin: 5% 15% 15% 15%;
+    background-color: #7DD3FC;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    
+}
+.new-game{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    height: 90%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.grid-container > div{
+    text-align: center;
+}
 
+
+button{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.player-section{
+    background-color: #CFFAFE;
+    margin: 3%;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius:20px;
+    height: 90%;
+}
+.button-section{
+    background-color: #65A30D;
+    margin: 3%;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius:20px;
+    height: 90%;
+}
+.main-score{
+    font-size: 35px;
+}
+.roll-dice{
+    margin-top: 30px;
+    background-color: #ffff00;
+}
+.hold{
+    margin-top: 30px;
+}
+.current-score{
+    background-color: #65A30D;
+    border: 2px solid black;
+    border-radius: 5px;
+    max-width: 50%;
+    margin-left: 25%;
+    padding-top: 10px;
+   
+}
+p{
+    font-size: 20px;
+}
+.win-message{
+    margin-top: 20px;
+}
