@@ -169,4 +169,5 @@ var playerCode = 1;
          mainPlayer1Score.textContent = player1Score;
          currentPlayer2Score.textContent = currentScore;
          currentPlayer1Score.textContent = currentScore;
+         winMessage.textContent = '';
     }
